@@ -1,0 +1,138 @@
+.gambar-article {
+    width: 700px
+}
+
+.content-artikel {
+    margin-top: 90px;
+}
+
+.back-btn {
+    color: #343a40;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.back-btn:hover {
+    color: #9a9da0;
+}
+
+.title-artikel {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+
+.active-collaps,
+.collapsible:hover {
+    background-color: #ccc;
+}
+
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+
+.pendaki-card {
+    border: none;
+    box-shadow: 3px 3px 10px rgba(52, 58, 64, 0.3),
+        -3px -3px 10px rgba(52, 58, 64, 0.3);
+    margin: 35px;
+    display: inline-block;
+}
+
+.link-sosmed {
+    margin-left: 10px;
+}
+
+.link-sosmed:hover {
+    color: #9a9da0;
+}
+
+.img-pendaki {
+    clip-path: circle(50%);
+    width: 150px;
+    margin: 50px 68px;
+    margin-bottom: -5px;
+}
+
+
+.pendaki-quotes {
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+.sosmed-pendaki {
+    margin: 20px;
+}
+
+.sosmed-pendaki a i {
+    color: #343a40;
+    font-size: 35px;
+
+}
+
+/* MOBILE */
+@media (min-width: 500px) {
+
+    .icon-sugest {
+        margin-bottom: 25px;
+    }
+}
+
+
+/* DESKTOP */
+@media (min-width: 992px) {
+    .nav-link {
+        margin-right: 10px;
+    }
+
+    .garis-bawah:hover::after {
+        content: ' ';
+        display: block;
+        border-bottom: 3px solid #9a9da0;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .dropdown-item {
+        line-height: 25px;
+    }
+
+    .dropdown-item:hover::after {
+        content: ' ';
+        display: block;
+        border-bottom: 3px solid #9a9da0;
+        width: 20%;
+        padding-bottom: 3px;
+        margin-bottom: -6px;
+    }
+
+    .title-sugest {
+        margin-bottom: 30px;
+    }
+
+    .main {
+        margin-top: 100px;
+    }
+
+}

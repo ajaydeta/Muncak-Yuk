@@ -1,0 +1,12 @@
+.deskripsi {
+    line-height: 20px;
+    font-size: 18px;
+}
+
+.judul-baca {
+    color: white;
+}
+
+.judul-baca:hover {
+    color: dimgrey;
+}
